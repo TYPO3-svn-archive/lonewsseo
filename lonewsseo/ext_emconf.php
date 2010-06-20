@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "lonewsseo".
 #
-# Auto generated 20-06-2010 12:29
+# Auto generated 20-06-2010 19:51
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => 'Adds an additional tab called "Meta Data" to tt_news for alias, meta description and browsertitle.',
 	'category' => 'fe',
 	'shy' => 0,
-	'version' => '1.1.1',
+	'version' => '1.1.2',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -40,7 +40,9 @@ $EM_CONF[$_EXTKEY] = array(
 		'suggests' => array(
 		),
 	),
-	'_md5_values_when_last_written' => 'a:14:{s:9:"ChangeLog";s:4:"e1bb";s:10:"README.txt";s:4:"ee2d";s:33:"class.tx_lonewsseo_catmapping.php";s:4:"b127";s:30:"class.tx_lonewsseo_mapping.php";s:4:"aa6e";s:12:"ext_icon.gif";s:4:"0858";s:17:"ext_localconf.php";s:4:"1cc6";s:14:"ext_tables.php";s:4:"1b5d";s:14:"ext_tables.sql";s:4:"6a65";s:28:"ext_typoscript_constants.txt";s:4:"d41d";s:24:"ext_typoscript_setup.txt";s:4:"1f00";s:16:"locallang_db.xml";s:4:"cd62";s:14:"doc/manual.sxw";s:4:"c110";s:19:"doc/wizard_form.dat";s:4:"df02";s:20:"doc/wizard_form.html";s:4:"9818";}',
+	'_md5_values_when_last_written' => 'a:14:{s:9:"ChangeLog";s:4:"e1bb";s:10:"README.txt";s:4:"ee2d";s:33:"class.tx_lonewsseo_catmapping.php";s:4:"b127";s:30:"class.tx_lonewsseo_mapping.php";s:4:"aa6e";s:12:"ext_icon.gif";s:4:"0858";s:17:"ext_localconf.php";s:4:"1cc6";s:14:"ext_tables.php";s:4:"1b5d";s:14:"ext_tables.sql";s:4:"6a65";s:28:"ext_typoscript_constants.txt";s:4:"d41d";s:24:"ext_typoscript_setup.txt";s:4:"eb29";s:16:"locallang_db.xml";s:4:"cd62";s:14:"doc/manual.sxw";s:4:"c110";s:19:"doc/wizard_form.dat";s:4:"df02";s:20:"doc/wizard_form.html";s:4:"9818";}',
+	'suggests' => array(
+	),
 );
 
 ?>
