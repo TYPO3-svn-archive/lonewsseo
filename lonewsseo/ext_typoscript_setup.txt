@@ -9,7 +9,7 @@ page.1127 {
   newsCatTitle {
     cObject = TEXT
     cObject {
-      dataWrap = DB:tt_news_cat:{GPvar:tx_ttnews|cat}:tx_lonewsseo_title // DB:tt_news_cat:{GPvar:tx_ttnews|cat}:title
+      dataWrap = DB:tt_news_cat:{GP:tx_ttnews|cat}:tx_lonewsseo_title // DB:tt_news_cat:{GP:tx_ttnews|cat}:title
       wrap3 = {|}
       insertData=1
     }
@@ -17,7 +17,7 @@ page.1127 {
   newsCatDesc {
     cObject = TEXT
     cObject {
-      dataWrap = DB:tt_news_cat:{GPvar:tx_ttnews|cat}:tx_lonewsseo_description // DB:tt_news_cat:{GPvar:tx_ttnews|cat}:description
+      dataWrap = DB:tt_news_cat:{GP:tx_ttnews|cat}:tx_lonewsseo_description // DB:tt_news_cat:{GP:tx_ttnews|cat}:description
       wrap3 = {|}
       insertData=1
     }
@@ -25,7 +25,7 @@ page.1127 {
   newsCatKeywords {
     cObject = TEXT
     cObject {
-      dataWrap = DB:tt_news_cat:{GPvar:tx_ttnews|cat}:tx_lonewsseo_keywords // DB:tt_news_cat:{GPvar:tx_ttnews|cat}:title
+      dataWrap = DB:tt_news_cat:{GP:tx_ttnews|cat}:tx_lonewsseo_keywords // DB:tt_news_cat:{GP:tx_ttnews|cat}:title
       wrap3 = {|}
       insertData=1
     }
@@ -50,7 +50,7 @@ page.1127 {
   newsDesc {
     cObject = TEXT
     cObject {
-      dataWrap = DB:tt_news:{GPvar:tx_ttnews|tt_news}:tx_lonewsseo_metadescription // DB:tt_news:{GPvar:tx_ttnews|tt_news}:short
+      dataWrap = DB:tt_news:{GP:tx_ttnews|tt_news}:tx_lonewsseo_metadescription // DB:tt_news:{GP:tx_ttnews|tt_news}:short
       wrap3 = {|}
       insertData=1
     }
@@ -58,7 +58,7 @@ page.1127 {
   newsTitle {
     cObject = TEXT
     cObject {
-      dataWrap = DB:tt_news:{GPvar:tx_ttnews|tt_news}:tx_lonewsseo_metatitle // DB:tt_news:{GPvar:tx_ttnews|tt_news}:title
+      dataWrap = DB:tt_news:{GP:tx_ttnews|tt_news}:tx_lonewsseo_metatitle // DB:tt_news:{GP:tx_ttnews|tt_news}:title
       wrap3 = {|}
       insertData=1
     }
