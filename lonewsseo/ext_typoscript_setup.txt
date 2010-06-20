@@ -1,0 +1,74 @@
+
+######################################
+## News Kategory Page
+######################################
+
+[globalVar = GP:tx_ttnews|cat > 0]
+page.1127 = LOAD_REGISTER
+page.1127 {
+  newsCatTitle {
+    cObject = TEXT
+    cObject {
+      dataWrap = DB:tt_news_cat:{GPvar:tx_ttnews|cat}:tx_lonewsseo_title // DB:tt_news_cat:{GPvar:tx_ttnews|cat}:title
+      wrap3 = {|}
+      insertData=1
+    }
+  }
+  newsCatDesc {
+    cObject = TEXT
+    cObject {
+      dataWrap = DB:tt_news_cat:{GPvar:tx_ttnews|cat}:tx_lonewsseo_description // DB:tt_news_cat:{GPvar:tx_ttnews|cat}:description
+      wrap3 = {|}
+      insertData=1
+    }
+  }
+  newsCatKeywords {
+    cObject = TEXT
+    cObject {
+      dataWrap = DB:tt_news_cat:{GPvar:tx_ttnews|cat}:tx_lonewsseo_keywords // DB:tt_news_cat:{GPvar:tx_ttnews|cat}:title
+      wrap3 = {|}
+      insertData=1
+    }
+  }
+}
+
+plugin.tx_seobasics {
+  10.data = register:newsCatTitle 
+  30.data = register:newsCatKeywords 
+  40.data = register:newsCatDesc
+}
+[global]
+
+######################################
+## News Single Page
+######################################
+
+[globalVar = GP:tx_ttnews|tt_news > 0]
+
+page.1127 = LOAD_REGISTER
+page.1127 {
+  newsDesc {
+    cObject = TEXT
+    cObject {
+      dataWrap = DB:tt_news:{GPvar:tx_ttnews|tt_news}:tx_lonewsseo_metadescription // DB:tt_news:{GPvar:tx_ttnews|tt_news}:short
+      wrap3 = {|}
+      insertData=1
+    }
+  }
+  newsTitle {
+    cObject = TEXT
+    cObject {
+      dataWrap = DB:tt_news:{GPvar:tx_ttnews|tt_news}:tx_lonewsseo_metatitle // DB:tt_news:{GPvar:tx_ttnews|tt_news}:title
+      wrap3 = {|}
+      insertData=1
+    }
+  }
+}
+
+plugin.tx_seobasics {
+  10.data = register:newsTitle
+  30.data = register:newsKeywords
+  40.data = register:newsDesc
+}
+[global]
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'lonewsseo'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_news.tx_lonewsseo_alias">alias (for URL)</label>
+			<label index="tt_news.tx_lonewsseo_metatitle">Meta title (max. 65 signs)</label>
+			<label index="tt_news.tx_lonewsseo_metadescription">meta description (max. 160 signs)</label>
+			<label index="tt_news_cat.tx_lonewsseo_alias">Alias</label>
+			<label index="tt_news_cat.tx_lonewsseo_title">title, max 65 signs</label>
+			<label index="tt_news_cat.tx_lonewsseo_description">Description, max 160 signs</label>
+			<label index="tt_news_cat.tx_lonewsseo_keywords">Keywords, seperated by comma</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_news.tx_lonewsseo_alias">Alias (für die URL)</label>
+			<label index="tt_news.tx_lonewsseo_metatitle">Meta Titel  (max. 65 Zeichen)</label>
+			<label index="tt_news.tx_lonewsseo_metadescription">Meta Beschribung (max. 160 Zeichen)</label>
+			<label index="tt_news_cat.tx_lonewsseo_alias">Alias</label>
+			<label index="tt_news_cat.tx_lonewsseo_title">Titel, max 65 Zeichen</label>
+			<label index="tt_news_cat.tx_lonewsseo_description">Beschreibung, max. 160 Zeichen</label>
+			<label index="tt_news_cat.tx_lonewsseo_keywords">Keywords, getrennt durch Kommata</label>
+		</languageKey>
+	</data>
+</T3locallang>
